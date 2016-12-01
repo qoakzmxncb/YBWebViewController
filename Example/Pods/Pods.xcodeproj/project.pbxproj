@@ -8,7 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		0D33835CD0BA294EF055D7B23C89527B /* Pods-YBWebViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5E0A6C8C51DFE616DF08710E70CBF6 /* Pods-YBWebViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		16905AE5A8BF46D30573E8A1BB2F1D76 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 5072E996D9D3F1845D8A9E14142A24FC /* ReplaceMe.m */; };
+		14FCB5B01DEFC79000A1EBAC /* YBWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 14FCB5AE1DEFC79000A1EBAC /* YBWebViewController.h */; };
+		14FCB5B11DEFC79000A1EBAC /* YBWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 14FCB5AE1DEFC79000A1EBAC /* YBWebViewController.h */; };
+		14FCB5B21DEFC79000A1EBAC /* YBWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 14FCB5AE1DEFC79000A1EBAC /* YBWebViewController.h */; };
+		14FCB5B31DEFC79000A1EBAC /* YBWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FCB5AF1DEFC79000A1EBAC /* YBWebViewController.m */; };
+		14FCB5B41DEFC79000A1EBAC /* YBWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FCB5AF1DEFC79000A1EBAC /* YBWebViewController.m */; };
+		14FCB5B51DEFC79000A1EBAC /* YBWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FCB5AF1DEFC79000A1EBAC /* YBWebViewController.m */; };
 		16BB11F4ED57ABC3CDD9C36C9013B672 /* YBWebViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E76CEAB304FC46EFC9DBCBE7D41E640C /* YBWebViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C6ACE2A7A39334A223CA09E130E7F5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		78F0842A11E36DE7543EED29F69EF8B0 /* YBWebViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45CB5DE0DCA82461DD98F9F1572A3DC1 /* YBWebViewController-dummy.m */; };
@@ -32,30 +37,36 @@
 /* Begin PBXFileReference section */
 		0B5E0A6C8C51DFE616DF08710E70CBF6 /* Pods-YBWebViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YBWebViewController_Example-umbrella.h"; sourceTree = "<group>"; };
 		1190F7AC195B81C0E5B6C25F1A7DD0C2 /* Pods-YBWebViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YBWebViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		12495227C56F68B3F07B59B28D183B51 /* Pods_YBWebViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YBWebViewController_Tests.framework; path = "Pods-YBWebViewController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12495227C56F68B3F07B59B28D183B51 /* Pods_YBWebViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YBWebViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14FCB5A91DEFC75100A1EBAC /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		14FCB5AA1DEFC76800A1EBAC /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		14FCB5AB1DEFC76800A1EBAC /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
+		14FCB5AC1DEFC76800A1EBAC /* forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forward.png; sourceTree = "<group>"; };
+		14FCB5AD1DEFC76800A1EBAC /* forward@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forward@2x.png"; sourceTree = "<group>"; };
+		14FCB5AE1DEFC79000A1EBAC /* YBWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBWebViewController.h; sourceTree = "<group>"; };
+		14FCB5AF1DEFC79000A1EBAC /* YBWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBWebViewController.m; sourceTree = "<group>"; };
 		1D4461F6B88D0DE554D505DD3AE29624 /* Pods-YBWebViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YBWebViewController_Example-dummy.m"; sourceTree = "<group>"; };
 		20C88A4052B94E5360DD709E488FA785 /* Pods-YBWebViewController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YBWebViewController_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		3396CF71AB1E3EAB6B12C1F76BA1E480 /* YBWebViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YBWebViewController.xcconfig; sourceTree = "<group>"; };
 		3AE2A6CC9569C3D7CDC7FC8AC6881F00 /* Pods-YBWebViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YBWebViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3EC3D114FECED8DF232C13DA475E0B22 /* Pods-YBWebViewController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YBWebViewController_Tests-resources.sh"; sourceTree = "<group>"; };
 		45CB5DE0DCA82461DD98F9F1572A3DC1 /* YBWebViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YBWebViewController-dummy.m"; sourceTree = "<group>"; };
-		5072E996D9D3F1845D8A9E14142A24FC /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
-		69EC368B51F52B13FF8B785C44D414F6 /* Pods-YBWebViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YBWebViewController_Example.modulemap"; sourceTree = "<group>"; };
+		69EC368B51F52B13FF8B785C44D414F6 /* Pods-YBWebViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YBWebViewController_Example.modulemap"; sourceTree = "<group>"; };
 		7023D4E3F0B6BE690BCE33EE5CC59276 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7770B0EA0CD5812EA232BDF628131F57 /* Pods-YBWebViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YBWebViewController_Tests.modulemap"; sourceTree = "<group>"; };
+		7770B0EA0CD5812EA232BDF628131F57 /* Pods-YBWebViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YBWebViewController_Tests.modulemap"; sourceTree = "<group>"; };
 		7BBCE0C08CB5784FFC9611C894C9F07F /* Pods-YBWebViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YBWebViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		7F6CB99E38EE1F53BA8617B145F8A1F0 /* Pods-YBWebViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YBWebViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		823B64AF1C9F05E02CD4404136A5DB20 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		857CC445E1D384FF7AF8703619BD83A9 /* YBWebViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = YBWebViewController.modulemap; sourceTree = "<group>"; };
-		86D249A89FD351771777C1443E84CA29 /* YBWebViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YBWebViewController.framework; path = YBWebViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		857CC445E1D384FF7AF8703619BD83A9 /* YBWebViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = YBWebViewController.modulemap; sourceTree = "<group>"; };
+		86D249A89FD351771777C1443E84CA29 /* YBWebViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YBWebViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		87ACA4B8E464B80F5733F3AE2756630D /* YBWebViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YBWebViewController-prefix.pch"; sourceTree = "<group>"; };
 		8D65FD61E06FA60A257881674B425ED5 /* Pods-YBWebViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YBWebViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BFF4B7FF28C417864D3F1135C5406B69 /* Pods-YBWebViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YBWebViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
 		BFFD7C287A34468D7529EFE3990D4805 /* Pods-YBWebViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YBWebViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C9ECAB5DFCF4423DA47836A90D32F3A6 /* Pods-YBWebViewController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YBWebViewController_Example-resources.sh"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CF154BB598EDF461B88A59B93FE72E1F /* Pods_YBWebViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YBWebViewController_Example.framework; path = "Pods-YBWebViewController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF154BB598EDF461B88A59B93FE72E1F /* Pods_YBWebViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YBWebViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5B7EBC6D1CA67AB7765426C56337DB4 /* Pods-YBWebViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YBWebViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
 		DB8577F88A17EDA680C2DD495BC7A789 /* Pods-YBWebViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YBWebViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E76CEAB304FC46EFC9DBCBE7D41E640C /* YBWebViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YBWebViewController-umbrella.h"; sourceTree = "<group>"; };
@@ -118,6 +129,18 @@
 			path = "Target Support Files/Pods-YBWebViewController_Example";
 			sourceTree = "<group>";
 		};
+		14FCB5A81DEFC75100A1EBAC /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				14FCB5AA1DEFC76800A1EBAC /* back.png */,
+				14FCB5AB1DEFC76800A1EBAC /* back@2x.png */,
+				14FCB5AC1DEFC76800A1EBAC /* forward.png */,
+				14FCB5AD1DEFC76800A1EBAC /* forward@2x.png */,
+				14FCB5A91DEFC75100A1EBAC /* .gitkeep */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		29688B0DD61C344E0331C09BA1F76A5C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,9 +158,9 @@
 		2C619CFF4A002C52688FA733AAF9BB23 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				5072E996D9D3F1845D8A9E14142A24FC /* ReplaceMe.m */,
+				14FCB5AE1DEFC79000A1EBAC /* YBWebViewController.h */,
+				14FCB5AF1DEFC79000A1EBAC /* YBWebViewController.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -192,9 +215,9 @@
 		A414897649130FFA6203E892025B0CAE /* YBWebViewController */ = {
 			isa = PBXGroup;
 			children = (
+				14FCB5A81DEFC75100A1EBAC /* Assets */,
 				2C619CFF4A002C52688FA733AAF9BB23 /* Classes */,
 			);
-			name = YBWebViewController;
 			path = YBWebViewController;
 			sourceTree = "<group>";
 		};
@@ -232,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D33835CD0BA294EF055D7B23C89527B /* Pods-YBWebViewController_Example-umbrella.h in Headers */,
+				14FCB5B01DEFC79000A1EBAC /* YBWebViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				16BB11F4ED57ABC3CDD9C36C9013B672 /* YBWebViewController-umbrella.h in Headers */,
+				14FCB5B21DEFC79000A1EBAC /* YBWebViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				899CF8308644214FF0D1D41C29E3D6C5 /* Pods-YBWebViewController_Tests-umbrella.h in Headers */,
+				14FCB5B11DEFC79000A1EBAC /* YBWebViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +365,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14FCB5B31DEFC79000A1EBAC /* YBWebViewController.m in Sources */,
 				ED3A7B1A8AF6754B7BB7389A71F6460D /* Pods-YBWebViewController_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,8 +374,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16905AE5A8BF46D30573E8A1BB2F1D76 /* ReplaceMe.m in Sources */,
 				78F0842A11E36DE7543EED29F69EF8B0 /* YBWebViewController-dummy.m in Sources */,
+				14FCB5B51DEFC79000A1EBAC /* YBWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +383,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14FCB5B41DEFC79000A1EBAC /* YBWebViewController.m in Sources */,
 				AC476EE8C154562E3BBDCAFEAA9235B4 /* Pods-YBWebViewController_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
