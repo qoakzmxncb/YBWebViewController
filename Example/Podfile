@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YBWebViewController_Example' do
+  pod 'YBWebViewController', :path => '../'
+
+  target 'YBWebViewController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
