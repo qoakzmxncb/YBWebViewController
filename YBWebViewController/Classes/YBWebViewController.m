@@ -2,8 +2,8 @@
 //  YBWebViewController.m
 //  YBFramework
 //
-//  Created by 巨鼎医疗 on 16/11/18.
-//  Copyright © 2016年 Chason. All rights reserved.
+//  Created by Chason on 16/11/18.
+//  Copyright © 2016年 Clear. All rights reserved.
 //
 
 #import "YBWebViewController.h"
@@ -127,7 +127,7 @@ const float YBFinalProgressValue = 0.92f;
 
 #pragma mark -
 - (void)fillToolbar{
-    UIBarButtonItem *backItem = [[UIBarButtonItem alloc] initWithImage:[self imageNamed:@"back" ] style:UIBarButtonItemStylePlain target:self action:@selector(backTapped:)];
+    UIBarButtonItem *backItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"back"] style:UIBarButtonItemStylePlain target:self action:@selector(backTapped:)];
     if (self.webView.canGoBack) {
         backItem.tintColor = nil;
     }
@@ -135,7 +135,7 @@ const float YBFinalProgressValue = 0.92f;
         backItem.tintColor = [UIColor lightGrayColor];
     }
     
-    UIBarButtonItem *forwardItem = [[UIBarButtonItem alloc] initWithImage:[self imageNamed:@"forward"] style:UIBarButtonItemStylePlain target:self action:@selector(forwardTapped:)];
+    UIBarButtonItem *forwardItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"forward"] style:UIBarButtonItemStylePlain target:self action:@selector(forwardTapped:)];
     if (self.webView.canGoForward) {
         forwardItem.tintColor = nil;
     }
@@ -177,7 +177,7 @@ const float YBFinalProgressValue = 0.92f;
 
 #pragma mark - RealProgress
 - (void)setRealProgress:(float)progress{
-    NSLog(@"real progress:%f",progress);
+//    NSLog(@"real progress:%f",progress);
     if (progress == 1) {
         [UIView animateWithDuration:0.27f animations:^{
             [self.progressView setProgress:1 animated:YES];
@@ -265,7 +265,7 @@ const float YBFinalProgressValue = 0.92f;
     if (progress > _progress || progress == 0) {
         _progress = progress;
         dispatch_async(dispatch_get_main_queue(), ^{
-            NSLog(@"fake progress:%f",progress);
+//            NSLog(@"fake progress:%f",progress);
             if (progress == 0) {
                 self.progressView.progress = 0;
                 self.progressView.alpha = 0;

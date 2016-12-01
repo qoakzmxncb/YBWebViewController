@@ -2,8 +2,8 @@
 //  YBWebViewController.m
 //  YBFramework
 //
-//  Created by 巨鼎医疗 on 16/11/18.
-//  Copyright © 2016年 Chason. All rights reserved.
+//  Created by Chason on 16/11/18.
+//  Copyright © 2016年 Clear. All rights reserved.
 //
 
 #import <WebKit/WebKit.h>

@@ -8,23 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		0D33835CD0BA294EF055D7B23C89527B /* Pods-YBWebViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5E0A6C8C51DFE616DF08710E70CBF6 /* Pods-YBWebViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		14FCB5B01DEFC79000A1EBAC /* YBWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 14FCB5AE1DEFC79000A1EBAC /* YBWebViewController.h */; };
-		14FCB5B11DEFC79000A1EBAC /* YBWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 14FCB5AE1DEFC79000A1EBAC /* YBWebViewController.h */; };
-		14FCB5B21DEFC79000A1EBAC /* YBWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 14FCB5AE1DEFC79000A1EBAC /* YBWebViewController.h */; };
-		14FCB5B31DEFC79000A1EBAC /* YBWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FCB5AF1DEFC79000A1EBAC /* YBWebViewController.m */; };
-		14FCB5B41DEFC79000A1EBAC /* YBWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FCB5AF1DEFC79000A1EBAC /* YBWebViewController.m */; };
-		14FCB5B51DEFC79000A1EBAC /* YBWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FCB5AF1DEFC79000A1EBAC /* YBWebViewController.m */; };
-		16BB11F4ED57ABC3CDD9C36C9013B672 /* YBWebViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E76CEAB304FC46EFC9DBCBE7D41E640C /* YBWebViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C6ACE2A7A39334A223CA09E130E7F5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		78F0842A11E36DE7543EED29F69EF8B0 /* YBWebViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45CB5DE0DCA82461DD98F9F1572A3DC1 /* YBWebViewController-dummy.m */; };
+		0E692DE117A31BC9B0574FBA39C1D7F0 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = CD33DA8AF1F67EBFD13370BC0E8CFEF9 /* back.png */; };
+		14FCB5E31DEFD30C00A1EBAC /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = CD33DA8AF1F67EBFD13370BC0E8CFEF9 /* back.png */; };
+		14FCB5E41DEFD30C00A1EBAC /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 189823D84E40B0A9E62B6A3962293806 /* back@2x.png */; };
+		14FCB5E51DEFD30C00A1EBAC /* forward.png in Resources */ = {isa = PBXBuildFile; fileRef = ED99E0A6EDB3362C206132F66D20D79F /* forward.png */; };
+		14FCB5E61DEFD30C00A1EBAC /* forward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 299331468C78FA57B2E4E03C92CED797 /* forward@2x.png */; };
+		15637E83E49736D34278CCAB03E7C3B7 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FAF4F70740F05FA34D54F1982E18E7A /* WebKit.framework */; };
+		254A6A66E753EDD02F74B5B71D9692A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5147AE3C7F8B063B02257EFF0EFD800 /* UIKit.framework */; };
+		41A5191333B0470AB8D007159650D015 /* forward.png in Resources */ = {isa = PBXBuildFile; fileRef = ED99E0A6EDB3362C206132F66D20D79F /* forward.png */; };
+		4C6ACE2A7A39334A223CA09E130E7F5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81607F20092CACC1394D3DCB7D6993B0 /* Foundation.framework */; };
+		6455ED2437880166CA252FA4AF68707E /* YBWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 093C68EABA108BBD5730782F4617BA2A /* YBWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E86EAA627C2C967842F71F0D345E609 /* YBWebViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B095B930322DCE3D52195B7C231146FD /* YBWebViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7168621BAAA1D63154172C1D64DB5423 /* YBWebViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C6D9392B020155E4479B4AC7094041F8 /* YBWebViewController.bundle */; };
 		899CF8308644214FF0D1D41C29E3D6C5 /* Pods-YBWebViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFF4B7FF28C417864D3F1135C5406B69 /* Pods-YBWebViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9EBDE7673B9B256C62DE50F07F1A9DBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		96E7151EAA67A0835C8D73813B5B4C65 /* forward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 299331468C78FA57B2E4E03C92CED797 /* forward@2x.png */; };
 		AC476EE8C154562E3BBDCAFEAA9235B4 /* Pods-YBWebViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC659ADE60E12B8239CF582C87FFB9A7 /* Pods-YBWebViewController_Tests-dummy.m */; };
-		DECC994C1F14AF99AF875C1500BB0291 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		C4A25297B11A4A1FB374F0B70C5C780B /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 189823D84E40B0A9E62B6A3962293806 /* back@2x.png */; };
+		C80F4CB2E7CC84E9AE85D1D50607609E /* YBWebViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EC2636741E784032ECC1677F8A6396 /* YBWebViewController-dummy.m */; };
+		DECC994C1F14AF99AF875C1500BB0291 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81607F20092CACC1394D3DCB7D6993B0 /* Foundation.framework */; };
 		ED3A7B1A8AF6754B7BB7389A71F6460D /* Pods-YBWebViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D4461F6B88D0DE554D505DD3AE29624 /* Pods-YBWebViewController_Example-dummy.m */; };
+		F8EF8D9ACC89AA569F51780EE5D8D62D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81607F20092CACC1394D3DCB7D6993B0 /* Foundation.framework */; };
+		F9C36F2CE854248211337781EE8092F8 /* YBWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A86F3FF07E2E3E88EF5BB6C018B6D9D /* YBWebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		639B79B2B9059362AB3ECA608F584329 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 286C265D3E2664F0CD710CFCF2E357EB;
+			remoteInfo = "YBWebViewController-YBWebViewController";
+		};
 		A705A8AC280AF5C37C1CF9153EC4E454 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -35,42 +49,45 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06CB9E8C375F614A211251EC6FAA34FB /* YBWebViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YBWebViewController.xcconfig; sourceTree = "<group>"; };
+		07C010C95732E0A5C7B1CE60037737AC /* Pods_YBWebViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YBWebViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		093C68EABA108BBD5730782F4617BA2A /* YBWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YBWebViewController.h; sourceTree = "<group>"; };
 		0B5E0A6C8C51DFE616DF08710E70CBF6 /* Pods-YBWebViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YBWebViewController_Example-umbrella.h"; sourceTree = "<group>"; };
 		1190F7AC195B81C0E5B6C25F1A7DD0C2 /* Pods-YBWebViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YBWebViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		12495227C56F68B3F07B59B28D183B51 /* Pods_YBWebViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YBWebViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		14FCB5A91DEFC75100A1EBAC /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		14FCB5AA1DEFC76800A1EBAC /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
-		14FCB5AB1DEFC76800A1EBAC /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
-		14FCB5AC1DEFC76800A1EBAC /* forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forward.png; sourceTree = "<group>"; };
-		14FCB5AD1DEFC76800A1EBAC /* forward@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forward@2x.png"; sourceTree = "<group>"; };
-		14FCB5AE1DEFC79000A1EBAC /* YBWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBWebViewController.h; sourceTree = "<group>"; };
-		14FCB5AF1DEFC79000A1EBAC /* YBWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBWebViewController.m; sourceTree = "<group>"; };
+		189823D84E40B0A9E62B6A3962293806 /* back@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
 		1D4461F6B88D0DE554D505DD3AE29624 /* Pods-YBWebViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YBWebViewController_Example-dummy.m"; sourceTree = "<group>"; };
+		1FAF4F70740F05FA34D54F1982E18E7A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
 		20C88A4052B94E5360DD709E488FA785 /* Pods-YBWebViewController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YBWebViewController_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		3396CF71AB1E3EAB6B12C1F76BA1E480 /* YBWebViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YBWebViewController.xcconfig; sourceTree = "<group>"; };
+		299331468C78FA57B2E4E03C92CED797 /* forward@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "forward@2x.png"; sourceTree = "<group>"; };
+		2C7C50CD43A95D83B28B77B124A0447B /* YBWebViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = YBWebViewController.modulemap; sourceTree = "<group>"; };
 		3AE2A6CC9569C3D7CDC7FC8AC6881F00 /* Pods-YBWebViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YBWebViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3EC3D114FECED8DF232C13DA475E0B22 /* Pods-YBWebViewController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YBWebViewController_Tests-resources.sh"; sourceTree = "<group>"; };
-		45CB5DE0DCA82461DD98F9F1572A3DC1 /* YBWebViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YBWebViewController-dummy.m"; sourceTree = "<group>"; };
+		6424AFD62F8C16E7E99194D46CAD8507 /* YBWebViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YBWebViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69EC368B51F52B13FF8B785C44D414F6 /* Pods-YBWebViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YBWebViewController_Example.modulemap"; sourceTree = "<group>"; };
+		6A86F3FF07E2E3E88EF5BB6C018B6D9D /* YBWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YBWebViewController.m; sourceTree = "<group>"; };
 		7023D4E3F0B6BE690BCE33EE5CC59276 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7770B0EA0CD5812EA232BDF628131F57 /* Pods-YBWebViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YBWebViewController_Tests.modulemap"; sourceTree = "<group>"; };
 		7BBCE0C08CB5784FFC9611C894C9F07F /* Pods-YBWebViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YBWebViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7E6BAB92F88BAC0A414003289A4A3443 /* YBWebViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YBWebViewController-prefix.pch"; sourceTree = "<group>"; };
 		7F6CB99E38EE1F53BA8617B145F8A1F0 /* Pods-YBWebViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YBWebViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		81607F20092CACC1394D3DCB7D6993B0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		823B64AF1C9F05E02CD4404136A5DB20 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		857CC445E1D384FF7AF8703619BD83A9 /* YBWebViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = YBWebViewController.modulemap; sourceTree = "<group>"; };
-		86D249A89FD351771777C1443E84CA29 /* YBWebViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YBWebViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		87ACA4B8E464B80F5733F3AE2756630D /* YBWebViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YBWebViewController-prefix.pch"; sourceTree = "<group>"; };
 		8D65FD61E06FA60A257881674B425ED5 /* Pods-YBWebViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YBWebViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A84AE1137ADE2091E86116721FDDAA2F /* ResourceBundle-YBWebViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-YBWebViewController-Info.plist"; sourceTree = "<group>"; };
+		B095B930322DCE3D52195B7C231146FD /* YBWebViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YBWebViewController-umbrella.h"; sourceTree = "<group>"; };
 		BFF4B7FF28C417864D3F1135C5406B69 /* Pods-YBWebViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YBWebViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
 		BFFD7C287A34468D7529EFE3990D4805 /* Pods-YBWebViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YBWebViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C6D9392B020155E4479B4AC7094041F8 /* YBWebViewController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YBWebViewController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9ECAB5DFCF4423DA47836A90D32F3A6 /* Pods-YBWebViewController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YBWebViewController_Example-resources.sh"; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CF154BB598EDF461B88A59B93FE72E1F /* Pods_YBWebViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YBWebViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD33DA8AF1F67EBFD13370BC0E8CFEF9 /* back.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
 		D5B7EBC6D1CA67AB7765426C56337DB4 /* Pods-YBWebViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YBWebViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
 		DB8577F88A17EDA680C2DD495BC7A789 /* Pods-YBWebViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YBWebViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E76CEAB304FC46EFC9DBCBE7D41E640C /* YBWebViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YBWebViewController-umbrella.h"; sourceTree = "<group>"; };
-		F7F44C55B2CB6D39C314886B46E879DE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED99E0A6EDB3362C206132F66D20D79F /* forward.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = forward.png; sourceTree = "<group>"; };
+		F0BA209C92296B009E2AF93D54ECFCB5 /* Pods_YBWebViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YBWebViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2E780E781D1A3D3391FA9D34DE4D2F5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4EC2636741E784032ECC1677F8A6396 /* YBWebViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YBWebViewController-dummy.m"; sourceTree = "<group>"; };
+		F5147AE3C7F8B063B02257EFF0EFD800 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		FC659ADE60E12B8239CF582C87FFB9A7 /* Pods-YBWebViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YBWebViewController_Tests-dummy.m"; sourceTree = "<group>"; };
 		FFDE38BC3CC307FF8B4677A6B2EEFB1D /* Pods-YBWebViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YBWebViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,6 +101,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		94413E5E869D99E39AC3E682BBC54669 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B72499EF8B2FF647CA77EA1A7D9F4150 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -92,25 +116,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C6F8E63D0F5494F35C35FC73423B14A0 /* Frameworks */ = {
+		E200C5DD62F9DF3ED988FF71E1CEDE50 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EBDE7673B9B256C62DE50F07F1A9DBE /* Foundation.framework in Frameworks */,
+				F8EF8D9ACC89AA569F51780EE5D8D62D /* Foundation.framework in Frameworks */,
+				254A6A66E753EDD02F74B5B71D9692A1 /* UIKit.framework in Frameworks */,
+				15637E83E49736D34278CCAB03E7C3B7 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02715E4122AC2C8AA25B08EF3FBF872B /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4F5DDFFEC191D9AC4F0A4D7610F0C525 /* YBWebViewController */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		02C69D88E307BECA53AEF0A8CD544891 /* Pods-YBWebViewController_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,65 +147,58 @@
 			path = "Target Support Files/Pods-YBWebViewController_Example";
 			sourceTree = "<group>";
 		};
-		14FCB5A81DEFC75100A1EBAC /* Assets */ = {
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				14FCB5AA1DEFC76800A1EBAC /* back.png */,
-				14FCB5AB1DEFC76800A1EBAC /* back@2x.png */,
-				14FCB5AC1DEFC76800A1EBAC /* forward.png */,
-				14FCB5AD1DEFC76800A1EBAC /* forward@2x.png */,
-				14FCB5A91DEFC75100A1EBAC /* .gitkeep */,
+				6FFDF343B465C42F26242933972F7F1D /* iOS */,
 			);
-			path = Assets;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		29688B0DD61C344E0331C09BA1F76A5C /* Support Files */ = {
+		1EAFE22AB1F7F1C816AD8865D39E5555 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F7F44C55B2CB6D39C314886B46E879DE /* Info.plist */,
-				857CC445E1D384FF7AF8703619BD83A9 /* YBWebViewController.modulemap */,
-				3396CF71AB1E3EAB6B12C1F76BA1E480 /* YBWebViewController.xcconfig */,
-				45CB5DE0DCA82461DD98F9F1572A3DC1 /* YBWebViewController-dummy.m */,
-				87ACA4B8E464B80F5733F3AE2756630D /* YBWebViewController-prefix.pch */,
-				E76CEAB304FC46EFC9DBCBE7D41E640C /* YBWebViewController-umbrella.h */,
+				9A84C733DF8340930FAD28423BCBF299 /* YBWebViewController */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/YBWebViewController";
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		2C619CFF4A002C52688FA733AAF9BB23 /* Classes */ = {
+		5CB090276017F3C53409CA861EAB3610 /* YBWebViewController */ = {
 			isa = PBXGroup;
 			children = (
-				14FCB5AE1DEFC79000A1EBAC /* YBWebViewController.h */,
-				14FCB5AF1DEFC79000A1EBAC /* YBWebViewController.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		4F5DDFFEC191D9AC4F0A4D7610F0C525 /* YBWebViewController */ = {
-			isa = PBXGroup;
-			children = (
-				29688B0DD61C344E0331C09BA1F76A5C /* Support Files */,
-				A414897649130FFA6203E892025B0CAE /* YBWebViewController */,
+				1EAFE22AB1F7F1C816AD8865D39E5555 /* Resources */,
+				BD9C7D720578F7BF5FDEB6AB609D6180 /* Support Files */,
+				68115B850E9905470B4D47B3E39F63F5 /* YBWebViewController */,
 			);
 			name = YBWebViewController;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		66F6274D7EEFFDDBEC0135AD42AEFB12 /* Products */ = {
+		68115B850E9905470B4D47B3E39F63F5 /* YBWebViewController */ = {
 			isa = PBXGroup;
 			children = (
-				CF154BB598EDF461B88A59B93FE72E1F /* Pods_YBWebViewController_Example.framework */,
-				12495227C56F68B3F07B59B28D183B51 /* Pods_YBWebViewController_Tests.framework */,
-				86D249A89FD351771777C1443E84CA29 /* YBWebViewController.framework */,
+				9687E3F4F4440ED6AFCAE76F354D867F /* Classes */,
+			);
+			path = YBWebViewController;
+			sourceTree = "<group>";
+		};
+		6CDD94976D716E8F8EF7E068C170720F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07C010C95732E0A5C7B1CE60037737AC /* Pods_YBWebViewController_Example.framework */,
+				F0BA209C92296B009E2AF93D54ECFCB5 /* Pods_YBWebViewController_Tests.framework */,
+				C6D9392B020155E4479B4AC7094041F8 /* YBWebViewController.bundle */,
+				6424AFD62F8C16E7E99194D46CAD8507 /* YBWebViewController.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+		6FFDF343B465C42F26242933972F7F1D /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+				81607F20092CACC1394D3DCB7D6993B0 /* Foundation.framework */,
+				F5147AE3C7F8B063B02257EFF0EFD800 /* UIKit.framework */,
+				1FAF4F70740F05FA34D54F1982E18E7A /* WebKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -196,11 +207,28 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				02715E4122AC2C8AA25B08EF3FBF872B /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				66F6274D7EEFFDDBEC0135AD42AEFB12 /* Products */,
+				88419462CB2DAB5A81B3FF2B69BD89DE /* Development Pods */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				6CDD94976D716E8F8EF7E068C170720F /* Products */,
 				988A9CB715370CA2B681B9F2C4E5C546 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		88419462CB2DAB5A81B3FF2B69BD89DE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5CB090276017F3C53409CA861EAB3610 /* YBWebViewController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9687E3F4F4440ED6AFCAE76F354D867F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				093C68EABA108BBD5730782F4617BA2A /* YBWebViewController.h */,
+				6A86F3FF07E2E3E88EF5BB6C018B6D9D /* YBWebViewController.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		988A9CB715370CA2B681B9F2C4E5C546 /* Targets Support Files */ = {
@@ -212,21 +240,38 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		A414897649130FFA6203E892025B0CAE /* YBWebViewController */ = {
+		9A84C733DF8340930FAD28423BCBF299 /* YBWebViewController */ = {
 			isa = PBXGroup;
 			children = (
-				14FCB5A81DEFC75100A1EBAC /* Assets */,
-				2C619CFF4A002C52688FA733AAF9BB23 /* Classes */,
+				B7B7DD45549634BD4829B39BC3946564 /* Assets */,
 			);
 			path = YBWebViewController;
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		B7B7DD45549634BD4829B39BC3946564 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+				CD33DA8AF1F67EBFD13370BC0E8CFEF9 /* back.png */,
+				189823D84E40B0A9E62B6A3962293806 /* back@2x.png */,
+				ED99E0A6EDB3362C206132F66D20D79F /* forward.png */,
+				299331468C78FA57B2E4E03C92CED797 /* forward@2x.png */,
 			);
-			name = Frameworks;
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		BD9C7D720578F7BF5FDEB6AB609D6180 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2E780E781D1A3D3391FA9D34DE4D2F5 /* Info.plist */,
+				A84AE1137ADE2091E86116721FDDAA2F /* ResourceBundle-YBWebViewController-Info.plist */,
+				2C7C50CD43A95D83B28B77B124A0447B /* YBWebViewController.modulemap */,
+				06CB9E8C375F614A211251EC6FAA34FB /* YBWebViewController.xcconfig */,
+				F4EC2636741E784032ECC1677F8A6396 /* YBWebViewController-dummy.m */,
+				7E6BAB92F88BAC0A414003289A4A3443 /* YBWebViewController-prefix.pch */,
+				B095B930322DCE3D52195B7C231146FD /* YBWebViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YBWebViewController";
 			sourceTree = "<group>";
 		};
 		C5E18887ED98DD604C48281AA820A31A /* Pods-YBWebViewController_Tests */ = {
@@ -250,21 +295,20 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		04BBA304CE94FA5E9F311ECACBC62BEE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E86EAA627C2C967842F71F0D345E609 /* YBWebViewController-umbrella.h in Headers */,
+				6455ED2437880166CA252FA4AF68707E /* YBWebViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6656D0DF356F02DE90904C30D7F9A377 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0D33835CD0BA294EF055D7B23C89527B /* Pods-YBWebViewController_Example-umbrella.h in Headers */,
-				14FCB5B01DEFC79000A1EBAC /* YBWebViewController.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		690C19BD05A9B288A8F9380C55A98C8D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				16BB11F4ED57ABC3CDD9C36C9013B672 /* YBWebViewController-umbrella.h in Headers */,
-				14FCB5B21DEFC79000A1EBAC /* YBWebViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +317,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				899CF8308644214FF0D1D41C29E3D6C5 /* Pods-YBWebViewController_Tests-umbrella.h in Headers */,
-				14FCB5B11DEFC79000A1EBAC /* YBWebViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +337,7 @@
 			);
 			name = "Pods-YBWebViewController_Tests";
 			productName = "Pods-YBWebViewController_Tests";
-			productReference = 12495227C56F68B3F07B59B28D183B51 /* Pods_YBWebViewController_Tests.framework */;
+			productReference = F0BA209C92296B009E2AF93D54ECFCB5 /* Pods_YBWebViewController_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		12501DB383B61AE0236F19C0B1A5DC6F /* Pods-YBWebViewController_Example */ = {
@@ -312,24 +355,43 @@
 			);
 			name = "Pods-YBWebViewController_Example";
 			productName = "Pods-YBWebViewController_Example";
-			productReference = CF154BB598EDF461B88A59B93FE72E1F /* Pods_YBWebViewController_Example.framework */;
+			productReference = 07C010C95732E0A5C7B1CE60037737AC /* Pods_YBWebViewController_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A81ED8346AA9EA715BDE1E05E61CD677 /* YBWebViewController */ = {
+		286C265D3E2664F0CD710CFCF2E357EB /* YBWebViewController-YBWebViewController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D3144343E5A369C4EF5FDC2BB3AACC4C /* Build configuration list for PBXNativeTarget "YBWebViewController" */;
+			buildConfigurationList = D9309EE0EAE6493E41C11001BCD7295C /* Build configuration list for PBXNativeTarget "YBWebViewController-YBWebViewController" */;
 			buildPhases = (
-				722933E73DF1B638E6FF3D2D6AECAF75 /* Sources */,
-				C6F8E63D0F5494F35C35FC73423B14A0 /* Frameworks */,
-				690C19BD05A9B288A8F9380C55A98C8D /* Headers */,
+				FEBC3F1334F191C52C48764E812CF7C2 /* Sources */,
+				94413E5E869D99E39AC3E682BBC54669 /* Frameworks */,
+				264EB48C4A511817DF9D02163E0A9BB3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = "YBWebViewController-YBWebViewController";
+			productName = "YBWebViewController-YBWebViewController";
+			productReference = C6D9392B020155E4479B4AC7094041F8 /* YBWebViewController.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		A81ED8346AA9EA715BDE1E05E61CD677 /* YBWebViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3144343E5A369C4EF5FDC2BB3AACC4C /* Build configuration list for PBXNativeTarget "YBWebViewController" */;
+			buildPhases = (
+				C73C594B44DE293376187F6928D1FDC0 /* Sources */,
+				E200C5DD62F9DF3ED988FF71E1CEDE50 /* Frameworks */,
+				80772024E86C74C7DCBFA18BCFFA3246 /* Resources */,
+				04BBA304CE94FA5E9F311ECACBC62BEE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FD21372F7A7067F1F86FABD56F4BB39 /* PBXTargetDependency */,
+			);
 			name = YBWebViewController;
 			productName = YBWebViewController;
-			productReference = 86D249A89FD351771777C1443E84CA29 /* YBWebViewController.framework */;
+			productReference = 6424AFD62F8C16E7E99194D46CAD8507 /* YBWebViewController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -349,33 +411,59 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 66F6274D7EEFFDDBEC0135AD42AEFB12 /* Products */;
+			productRefGroup = 6CDD94976D716E8F8EF7E068C170720F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				12501DB383B61AE0236F19C0B1A5DC6F /* Pods-YBWebViewController_Example */,
 				033C4D1974B55D5CE92F8BF9D06AF3EA /* Pods-YBWebViewController_Tests */,
 				A81ED8346AA9EA715BDE1E05E61CD677 /* YBWebViewController */,
+				286C265D3E2664F0CD710CFCF2E357EB /* YBWebViewController-YBWebViewController */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		264EB48C4A511817DF9D02163E0A9BB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E692DE117A31BC9B0574FBA39C1D7F0 /* back.png in Resources */,
+				C4A25297B11A4A1FB374F0B70C5C780B /* back@2x.png in Resources */,
+				41A5191333B0470AB8D007159650D015 /* forward.png in Resources */,
+				96E7151EAA67A0835C8D73813B5B4C65 /* forward@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80772024E86C74C7DCBFA18BCFFA3246 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14FCB5E31DEFD30C00A1EBAC /* back.png in Resources */,
+				7168621BAAA1D63154172C1D64DB5423 /* YBWebViewController.bundle in Resources */,
+				14FCB5E41DEFD30C00A1EBAC /* back@2x.png in Resources */,
+				14FCB5E61DEFD30C00A1EBAC /* forward@2x.png in Resources */,
+				14FCB5E51DEFD30C00A1EBAC /* forward.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0218447C16E5439D360572DD7F08F809 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14FCB5B31DEFC79000A1EBAC /* YBWebViewController.m in Sources */,
 				ED3A7B1A8AF6754B7BB7389A71F6460D /* Pods-YBWebViewController_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		722933E73DF1B638E6FF3D2D6AECAF75 /* Sources */ = {
+		C73C594B44DE293376187F6928D1FDC0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78F0842A11E36DE7543EED29F69EF8B0 /* YBWebViewController-dummy.m in Sources */,
-				14FCB5B51DEFC79000A1EBAC /* YBWebViewController.m in Sources */,
+				C80F4CB2E7CC84E9AE85D1D50607609E /* YBWebViewController-dummy.m in Sources */,
+				F9C36F2CE854248211337781EE8092F8 /* YBWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,14 +471,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14FCB5B41DEFC79000A1EBAC /* YBWebViewController.m in Sources */,
 				AC476EE8C154562E3BBDCAFEAA9235B4 /* Pods-YBWebViewController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEBC3F1334F191C52C48764E812CF7C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		4FD21372F7A7067F1F86FABD56F4BB39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "YBWebViewController-YBWebViewController";
+			target = 286C265D3E2664F0CD710CFCF2E357EB /* YBWebViewController-YBWebViewController */;
+			targetProxy = 639B79B2B9059362AB3ECA608F584329 /* PBXContainerItemProxy */;
+		};
 		6CFBB8FEFAE22090564E9BF22B259401 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = YBWebViewController;
@@ -471,6 +571,23 @@
 			};
 			name = Release;
 		};
+		2E5AF3D40F492025E91A93895692A84B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06CB9E8C375F614A211251EC6FAA34FB /* YBWebViewController.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/YBWebViewController";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/YBWebViewController/ResourceBundle-YBWebViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = YBWebViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		522A41ED3D28E903FB80E73AA8928231 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FFDE38BC3CC307FF8B4677A6B2EEFB1D /* Pods-YBWebViewController_Example.debug.xcconfig */;
@@ -539,7 +656,7 @@
 		};
 		764A41EB5B15A2A04F59FCF854A61DC2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3396CF71AB1E3EAB6B12C1F76BA1E480 /* YBWebViewController.xcconfig */;
+			baseConfigurationReference = 06CB9E8C375F614A211251EC6FAA34FB /* YBWebViewController.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -568,7 +685,7 @@
 		};
 		90C17D07A10653F5C2835419774F7407 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3396CF71AB1E3EAB6B12C1F76BA1E480 /* YBWebViewController.xcconfig */;
+			baseConfigurationReference = 06CB9E8C375F614A211251EC6FAA34FB /* YBWebViewController.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -592,6 +709,23 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		95AB14DE0458740A9E99F0CCFEDF49BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06CB9E8C375F614A211251EC6FAA34FB /* YBWebViewController.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/YBWebViewController";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/YBWebViewController/ResourceBundle-YBWebViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = YBWebViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -705,6 +839,15 @@
 			buildConfigurations = (
 				90C17D07A10653F5C2835419774F7407 /* Debug */,
 				764A41EB5B15A2A04F59FCF854A61DC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9309EE0EAE6493E41C11001BCD7295C /* Build configuration list for PBXNativeTarget "YBWebViewController-YBWebViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95AB14DE0458740A9E99F0CCFEDF49BE /* Debug */,
+				2E5AF3D40F492025E91A93895692A84B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

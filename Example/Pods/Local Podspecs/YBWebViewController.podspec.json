@@ -1,9 +1,9 @@
 {
   "name": "YBWebViewController",
   "version": "0.1.0",
-  "summary": "A short description of YBWebViewController.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/YBWebViewController",
+  "summary": "A simple UIViewController arround WKWebView.",
+  "description": "A simple UIViewController arround WKWebView. And include tow types UIProgress for webview's progress.",
+  "homepage": "https://github.com/qoakzmxncb/YBWebViewController",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,21 @@
     "Chason": "qoakzmxncb@qq.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/YBWebViewController.git",
+    "git": "https://github.com/qoakzmxncb/YBWebViewController.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "YBWebViewController/Classes/**/*"
+  "requires_arc": true,
+  "source_files": "YBWebViewController/Classes/**/*",
+  "resource_bundles": {
+    "YBWebViewController": [
+      "YBWebViewController/Assets/*.png"
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "WebKit"
+  ]
 }
