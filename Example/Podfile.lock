@@ -1,0 +1,16 @@
+PODS:
+  - YBWebViewController (0.1.0)
+
+DEPENDENCIES:
+  - YBWebViewController (from `../`)
+
+EXTERNAL SOURCES:
+  YBWebViewController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  YBWebViewController: ee85c9c95458203980c7d12e6cdb9aa00984eadc
+
+PODFILE CHECKSUM: 6b6a4698bce48b1d75a40d4ca31465df9a2caa73
+
+COCOAPODS: 1.0.0
