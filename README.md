@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # YBWebViewController
 
 [![CI Status](http://img.shields.io/travis/Chason/YBWebViewController.svg?style=flat)](https://travis-ci.org/Chason/YBWebViewController)
@@ -27,3 +28,6 @@ Chason, qoakzmxncb@qq.com
 ## License
 
 YBWebViewController is available under the MIT license. See the LICENSE file for more info.
+=======
+# YBWebViewController
+>>>>>>> b56084e08618f16bb3d5d225de6b4a374a82fc92
