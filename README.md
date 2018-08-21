@@ -29,4 +29,3 @@ Chason, qoakzmxncb@qq.com
 YBWebViewController is available under the MIT license. See the LICENSE file for more info.
 =======
 # YBWebViewController
->>>>>>> b56084e08618f16bb3d5d225de6b4a374a82fc92
