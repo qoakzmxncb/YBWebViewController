@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # YBWebViewController
 
 [![CI Status](http://img.shields.io/travis/Chason/YBWebViewController.svg?style=flat)](https://travis-ci.org/Chason/YBWebViewController)
